@@ -1,0 +1,173 @@
+/* --- Styles for the Extension Popup (Toolbar) --- */
+body {
+  width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #f8f9ff 0%, #ffffff 100%);
+}
+
+.container {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e8eaf6;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: -16px -16px 16px -16px;
+  padding: 16px;
+  border-bottom: none;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0;
+  color: white;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+#count {
+  font-size: 11px;
+  color: white;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+ul::-webkit-scrollbar {
+  width: 6px;
+}
+
+ul::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+ul::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 10px;
+}
+
+ul::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+}
+
+.highlight-card {
+  background: white;
+  border: 1px solid #e8eaf6;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.08);
+  transition: all 0.2s ease;
+}
+
+.highlight-card:hover {
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  transform: translateY(-1px);
+  border-color: #d1d5f3;
+}
+
+.highlight-text {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+  color: #2d3748;
+  line-height: 1.6;
+  border-left: 4px solid;
+  border-image: linear-gradient(180deg, #667eea 0%, #764ba2 100%) 1;
+  padding-left: 12px;
+  font-style: italic;
+  background: linear-gradient(120deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%);
+  padding: 10px 12px;
+  border-radius: 0 6px 6px 0;
+  border-left-width: 4px;
+}
+
+.highlight-meta {
+  font-size: 11px;
+  color: #718096;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.highlight-meta a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.highlight-meta a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.delete-btn {
+  background: rgba(239, 68, 68, 0.1);
+  border: none;
+  color: #ef4444;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px 8px;
+  line-height: 1;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-btn:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #dc2626;
+  transform: scale(1.1);
+}
+
+.hidden {
+  display: none;
+}
+
+#empty-state {
+  text-align: center;
+  color: #718096;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+#empty-state p:first-child {
+  font-size: 16px;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.sub {
+  font-size: 12px;
+  color: #a0aec0;
+  margin: 0;
+}
+

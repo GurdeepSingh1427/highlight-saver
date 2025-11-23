@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saved Highlights</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Your Highlights</h1>
+        <span id="count">0 saved</span>
+      </div>
+
+      <ul id="highlight-list">
+        <!-- Items injected by popup.js -->
+      </ul>
+
+      <div id="empty-state" class="hidden">
+        <p>No highlights yet.</p>
+        <p class="sub">Select text on any page to start.</p>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
