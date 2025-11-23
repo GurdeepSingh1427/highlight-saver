@@ -3,7 +3,6 @@
 A beautiful Chrome/Edge browser extension that lets you save text highlights from any webpage and access them later. Perfect for researchers, students, and anyone who wants to keep track of important quotes and passages.
 
 ![Version](https://img.shields.io/badge/version-1.0.1-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## ✨ Features
 
@@ -21,19 +20,23 @@ A beautiful Chrome/Edge browser extension that lets you save text highlights fro
 ### Method 1: Load Unpacked Extension (For Development/Personal Use)
 
 1. **Download or Clone the Repository**
+
    ```bash
    git clone https://github.com/yourusername/highlight-saver.git
    cd highlight-saver
    ```
 
 2. **Open Chrome/Edge Extensions Page**
+
    - **Chrome**: Navigate to `chrome://extensions/`
    - **Edge**: Navigate to `edge://extensions/`
 
 3. **Enable Developer Mode**
+
    - Toggle the "Developer mode" switch in the top-right corner of the extensions page
 
 4. **Load the Extension**
+
    - Click the "Load unpacked" button
    - Select the `highlight-saver` folder (the folder containing `manifest.json`)
    - The extension should now appear in your extensions list
@@ -44,7 +47,7 @@ A beautiful Chrome/Edge browser extension that lets you save text highlights fro
 
 ### Method 2: Install from Chrome Web Store (If Published)
 
-*Coming soon - Extension will be available on Chrome Web Store*
+_Coming soon - Extension will be available on Chrome Web Store_
 
 ## 🚀 How to Use
 
@@ -75,10 +78,13 @@ A beautiful Chrome/Edge browser extension that lets you save text highlights fro
 ## 🎨 Screenshots
 
 ### Floating Save Button
+
 When you select text, a beautiful purple gradient button appears with the text "Save Highlight?"
 
 ### Popup Interface
+
 The popup shows all your saved highlights in a clean, organized list with:
+
 - Purple gradient header
 - Highlight cards with gradient accents
 - Easy-to-use delete buttons
@@ -116,11 +122,13 @@ highlight-saver/
 ### Button Not Appearing After Text Selection
 
 1. **Reload the Extension**
+
    - Go to `chrome://extensions/` or `edge://extensions/`
    - Find "Website Highlight Saver"
    - Click the reload icon (circular arrow)
 
 2. **Refresh the Webpage**
+
    - Press `F5` or `Ctrl+R` to refresh the page
    - Try selecting text again
 
@@ -137,11 +145,13 @@ This error occurs when the extension is reloaded while you have web pages open.
 ### Highlights Not Saving
 
 1. **Check Extension Permissions**
+
    - Go to `chrome://extensions/` or `edge://extensions/`
    - Find "Website Highlight Saver"
    - Ensure it's enabled
 
 2. **Check Browser Storage**
+
    - Open Developer Tools (`F12`)
    - Go to Application tab → Storage → Local Storage
    - Check if data is being saved
@@ -191,10 +201,6 @@ This error occurs when the extension is reloaded while you have web pages open.
 2. Test with different text selection scenarios
 3. Verify storage persistence after browser restart
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -207,8 +213,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Gurdeep Singh**
+
+- GitHub: [@GurdeepSingh1472](https://github.com/GurdeepSingh1427)
 
 ## 🙏 Acknowledgments
 
@@ -219,10 +226,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📧 Support
 
 If you encounter any issues or have questions:
+
 - Open an issue on GitHub
 - Check the Troubleshooting section above
 
 ---
-
-**Made with ❤️ for researchers, students, and knowledge seekers**
-
